@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility</title>
+</head>
+<body>
+    <!--Skip link-->
+    <a href="#main">Skip to main content</a>
+    <br>
+
+    <!--Navigation bar-->
+    <nav aria-label="Main navigation">
+        <a href="#home">Home</a><a href="#help">Help</a>
+    </nav>
+
+    <!--Main content-->
+    <main>
+
+        <h1>Accessibile Page</h1>
+
+        <!--Image with alternative text-->
+        <img src="image.jpg" alt="Accessibile page image">
+
+        <!--Close button with ARIA label-->
+        <button aria-label="Close">X</button>
+        <br>
+
+        <!--Search field with accessible label-->
+        <div>
+            <label for="Search">Search</label>
+            <input type="text" aria-label="Search the website">
+        </div>
+
+    </main>
+</body>
+</html>
